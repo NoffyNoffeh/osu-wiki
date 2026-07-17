@@ -69,7 +69,7 @@ Important to understand before using:
 - **[Break times](/wiki/Beatmap/Break) must be inserted with the restrictions of the [beatmap editor](/wiki/Client/Beatmap_editor).**
 - **[Difficulty settings](/wiki/Client/Beatmap_editor/Song_setup#difficulty) must not use more precision than is possible in the [beatmap editor](/wiki/Client/Beatmap_editor).**
 - **The `Letterbox during breaks` setting must be consistent between difficulties of the same mode if they contain break periods and if included, the same storyboard.**
-- **Beatmaps which overflow the integer limits for score (over 2,147,483,647) or combo (over 65,535) must have a Lazer Only flag visible on the beatmap's information page.** Due to integer limits, scores on affected maps can only be set correctly in osu!lazer.
+- **Beatmaps which overflow the integer limits for combo (over 65,535) or ScoreV1 (over 2,147,483,647) must have a Lazer Only flag visible on the beatmap's information page.** Due to integer limits, scores on affected maps can only be set correctly in osu!lazer, as values this high will cause unintended behavior in osu!stable.
 - **Beatmaps containing spoilers for other media must be marked with a spoiler warning in the beatmap's description.**<!-- TODO: This and the following rule should be game features, not RC rules. Aside from being ineffective, it doesn't make sense for this to be included in RC because you can edit it after Ranked. -->
 
 ### Guidelines
